@@ -33,7 +33,7 @@
 	<h1 class="text-4xl">Welcome to SvelteKit - UnoCSS template!</h1>
 	<p>
 		Visit <a
-			class="underline-blue-600 text-2xl underline hover:text-blue-600"
+			class="underline-blue-600 underline hover:text-blue-600"
 			href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation for SvelteKit
 	</p>
 	<p>This template includes:</p>
