@@ -1,38 +1,18 @@
-# create-svelte
+# SvelteKit UnoCSS Template
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a template containing the following:
 
-## Creating a project
+- SvelteKit
+with adapter-static for easier Github Pages deployment
+- UnoCSS
+using Svelte scoped mode
+- Prettier Plugin TailwindCSS
+for auto sorting of classes
+- Commit-and-Tag-Version
+for CHANGELOG generation and Github tagging of versions
+- PrismJS
+with Prism-Svelte for syntax highlighting of code blocks
 
-If you're seeing this, you've probably already done this step. Congrats!
+Prettier Plugin TailwindCSS auto loading is broken when using pnpm so I recommend npm.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Have fun!
