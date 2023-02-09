@@ -26,5 +26,8 @@
 		"unocss": "^0.49.4",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@unocss/reset": "^0.49.4"
+	}
 }
