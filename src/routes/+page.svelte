@@ -21,6 +21,11 @@
 			link: "https://github.com/absolute-version/commit-and-tag-version",
 			desc: "for CHANGELOG generation and Github tagging of versions",
 		},
+		{
+			name: "PrismJS",
+			link: "https://prismjs.com",
+			desc: "with Prism-Svelte for syntax highlighting of code blocks",
+		},
 	];
 </script>
 
