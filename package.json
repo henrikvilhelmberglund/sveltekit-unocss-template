@@ -9,7 +9,10 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"release": "commit-and-tag-version",
+		"postrelease": "git push --follow-tags origin main",
+		"deploy": "npx gh-pages -d build --dotfiles"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
