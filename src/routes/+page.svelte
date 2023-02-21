@@ -32,9 +32,8 @@
 <main class="[&>*]:m-4">
 	<h1 class="text-4xl">Welcome to SvelteKit - UnoCSS template!</h1>
 	<p>
-		Visit <a
-			class="underline-blue-600 underline hover:text-blue-600"
-			href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation for SvelteKit
+		Visit <a class="underline-blue-600 underline hover:text-blue-600" href="https://kit.svelte.dev"
+			>kit.svelte.dev</a> to read the documentation for SvelteKit
 	</p>
 	<p>This template includes:</p>
 	<ul>
@@ -57,15 +56,6 @@
 		<a
 			class="underline-blue-600 underline hover:text-blue-600"
 			href="https://github.com/henrikvilhelmberglund"
-			><img class="inline w-6" src="Henrik.png" alt="avatar picture" />henrikvilhelmberglund</a>
+			><img class="inline w-6" src="Henrik.png" alt="avatar" />henrikvilhelmberglund</a>
 	</p>
-	<div>
-		<b />
-		<a
-			class="underline-blue-600 p-12 text-2xl text-2xl underline hover:text-blue-600"
-			href="{base}/important">
-			<span> Important! </span>
-		</a>
-		<strong />
-	</div>
 </footer>
