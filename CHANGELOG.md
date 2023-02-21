@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.3](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.2...v0.0.3) (2023-02-21)
+
+
+### Bug Fixes
+
+* :ambulance: add .nojekyll ([45001a4](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/45001a41a5c934e8c8b824c830bc1de7ae7e8dad))
+
 ## 0.0.2 (2023-02-21)
 
 
