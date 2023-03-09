@@ -13,6 +13,11 @@ const config = {
 			base: dev ? "" : "/sveltekit-unocss-template",
 		},
 	},
+  vitePlugin: {
+		experimental: {
+			inspector: true,
+		},
+	},
 };
 
 export default config;
