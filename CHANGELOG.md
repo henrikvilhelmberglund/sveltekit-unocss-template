@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.4](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.3...v0.0.4) (2023-03-09)
+
+
+### Features
+
+* :sparkles: add svelte inspector by default ([7986d02](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/7986d026f4f3afe055f3a259edea28f8abfbf03a))
+
+
+### Bug Fixes
+
+* :fire: remove unneeded component ([d622db1](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/d622db1ac00d44b996cc2c2423df55d86bf113fe))
+
 ## [0.0.3](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.2...v0.0.3) (2023-02-21)
 
 
