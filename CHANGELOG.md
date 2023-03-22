@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.5](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.4...v0.0.5) (2023-03-22)
+
+
+### Features
+
+* :sparkles: split into components ([d8f6c65](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/d8f6c659d626a9b223a6cc64e07e08e639331a47))
+* :package: add noto-emoji icons ([4ef6f09](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/4ef6f09483d51b08a0fec41a1380fac942361d61))
+* :package: add @unocss/transformer-directives ([9ec3a29](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/9ec3a29aea80fbabbb7ea87170c1462f1913fc26))
+* :package: add @unocss/preset-icons ([6e17292](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/6e1729204314f31031400eb0173a3d3c817d6f86))
+* :package: add @unocss/preset-web-fonts ([522a09f](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/522a09f9fd8d97a642caa9382a30b9f9d89aa571))
+
+
+### Bug Fixes
+
+* :bug: add base path for footer ([8b49bd5](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/8b49bd5279e8a2048f1caee93541fe6ad8516cac))
+
 ## [0.0.4](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.3...v0.0.4) (2023-03-09)
 
 
