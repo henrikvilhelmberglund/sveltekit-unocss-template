@@ -3,6 +3,7 @@ import UnoCSS from "unocss/vite";
 import presetUno from "@unocss/preset-uno";
 import presetWebFonts from "@unocss/preset-web-fonts";
 import presetIcons from "@unocss/preset-icons";
+import transformerDirectives from "@unocss/transformer-directives";
 import { defineConfig } from "vite";
 
 export default defineConfig({
@@ -40,6 +41,7 @@ export default defineConfig({
 				}),
 			],
 			mode: "svelte-scoped",
+			transformers: [transformerDirectives()],
 		}),
 		sveltekit(),
 	],
