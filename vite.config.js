@@ -2,6 +2,7 @@ import { sveltekit } from "@sveltejs/kit/vite";
 import UnoCSS from "unocss/vite";
 import presetUno from "@unocss/preset-uno";
 import presetWebFonts from "@unocss/preset-web-fonts";
+import presetIcons from "@unocss/preset-icons";
 import { defineConfig } from "vite";
 
 export default defineConfig({
@@ -28,6 +29,13 @@ export default defineConfig({
 								provider: "none",
 							},
 						],
+					},
+				}),
+				presetIcons({
+					extraProperties: {
+						display: "inline-block",
+						"vertical-align": "middle",
+						// ...
 					},
 				}),
 			],
