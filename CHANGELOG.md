@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.7](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.6...v0.0.7) (2023-04-20)
+
+
+### Features
+
+* :sparkles: add shift keycombo and hold mode for inspector ([c43d378](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/c43d378f8d6a5989fb329ebde8ddd2e6d3cabe81))
+
+
+### Bug Fixes
+
+* :fire: remove component import ([54dc04a](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/54dc04ad1d40be7ba33bd7b2af2c2906da5abf43))
+
 ## [0.0.6](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.5...v0.0.6) (2023-04-20)
 
 
