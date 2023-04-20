@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.6](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.5...v0.0.6) (2023-04-20)
+
+
+### Features
+
+* :sparkles: add stores.js for storing stores (!) ([f3e8e23](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/f3e8e23b4d8324c79e0970406ba4448b6b316fbb))
+* :sparkles: add helpers.js which sets up theme ([7d6d575](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/7d6d575a0c02ae5ec46a1ffe36976cf49d8616a6))
+* :sparkles: add actions.js which should contain Svelte actions ([89ccb50](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/89ccb50cdcf981d340367145aa0c5f281a60059e))
+* :sparkles: update Footer component ([07e02b0](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/07e02b0b75729fd5f19c7dc8e93c8379309d59a0))
+* :sparkles: add unocss-fix.css and commented out row in case it's buggy ([791eeee](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/791eeee31ba03dbe6a8835028650f516cb65897e))
+* :wrench: add some basic shortcuts and themes to unocss in vite.config.js, add new presets ([331d901](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/331d9014e9e0b4d2d17b245a36fc46690a651e94))
+* :sparkles: add empty uno.config.js to make unocss extension work ([bb334b0](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/bb334b04886bfb2e9ebdc8754bc65ed83d4bf8b8))
+* :sparkles: add safelist.js for generating safelists for unocss ([4c3c1e8](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/4c3c1e893cc962653bccaf4df3dde6491f01f518))
+* :memo: update README ([c7586f9](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/c7586f9ef1b1ae734f5b99fbb6d4a592032147da))
+* :package: add and update packages ([952aeb6](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/952aeb635876c854b8db85341b474c9fe0756b5d))
+* :sparkles: update Footer ([a270276](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/a270276e684efddbfca0e9cf024adc23c23f590e))
+* :package: use latest version of svelte, sveltekit, vite ([a959afd](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/a959afdb46595ab5243c3ee3aaea5e8fd90ba993))
+* :package: add svelte-preprocess ([c3d9d09](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/c3d9d09fc858ce7e4153a5ce88ab5fadec5560b6))
+
+
+### Bug Fixes
+
+* :fire: remove Welcome component ([100b8c4](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/100b8c4fe6d36666cdea054259412a76358eb651))
+* :bug: remove "by" and p tag, edit text ([660147e](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/660147e9589bb99b16f8af9f6fb85fad00e3d71c))
+
 ## [0.0.5](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.4...v0.0.5) (2023-03-22)
 
 
