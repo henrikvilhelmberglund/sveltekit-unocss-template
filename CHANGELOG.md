@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.8](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.7...v0.0.8) (2023-04-25)
+
+
+### Bug Fixes
+
+* :fire: remove duplicate preset uno ([8e92b73](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/8e92b73d088ccd354588785e736985a9e290e480))
+
 ## [0.0.7](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.6...v0.0.7) (2023-04-20)
 
 
