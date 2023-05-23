@@ -3,9 +3,10 @@ import UnoCSS from "unocss/vite";
 import presetUno from "@unocss/preset-uno";
 import presetWebFonts from "@unocss/preset-web-fonts";
 import presetIcons from "@unocss/preset-icons";
+import presetTheme from "unocss-preset-theme";
+import { presetForms } from '@julr/unocss-preset-forms'
 import transformerDirectives from "@unocss/transformer-directives";
 import { defineConfig } from "vite";
-import presetTheme from "unocss-preset-theme";
 import { presetHeroPatterns } from "@julr/unocss-preset-heropatterns";
 import { colors } from "@unocss/preset-mini";
 import { createSafeList } from "./safelist";
@@ -30,7 +31,8 @@ export default defineConfig({
 			],
 			theme: {},
 			presets: [
-				presetUno(),
+        presetUno(),
+        presetForms(),
 				presetTheme({
 					theme: {
 						blue: {
