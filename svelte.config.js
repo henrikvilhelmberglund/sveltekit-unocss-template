@@ -16,11 +16,9 @@ const config = {
 		},
 	},
 	vitePlugin: {
-		experimental: {
-			inspector: {
-				toggleKeyCombo: "shift",
-				holdMode: true,
-			},
+		inspector: {
+			toggleKeyCombo: "shift",
+			holdMode: true,
 		},
 	},
 	// preprocess: vitePreprocess(),
