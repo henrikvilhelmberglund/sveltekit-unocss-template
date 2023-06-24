@@ -285,7 +285,6 @@ const config = {
 					},
 				}),
 			],
-			// mode: "svelte-scoped",
 			transformers: [transformerDirectives()],
 		}),
 	],
@@ -302,7 +301,6 @@ const config = {
 			holdMode: true,
 		},
 	},
-	// preprocess: vitePreprocess(),
 };
 
 export default config;
