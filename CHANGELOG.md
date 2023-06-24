@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.9](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.8...v0.0.9) (2023-06-24)
+
+
+### Features
+
+* :sparkles: use unocss svelte-scoped preprocess style instead to make transitioning to mdsvex easier ([ec58bc7](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/ec58bc72993340b88d8e663b89452ad5def69b6d))
+* :package: update packages ([8568ce0](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/8568ce00c239324afaee22ab09e5b53ae5161e1d))
+* :wrench: add config for new svelte-scoped package ([0c02941](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/0c029414ebc82bd4cfe79bd48d1539dae0f43c68))
+* :package: add missing package ([c2b35a4](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/c2b35a47cf42ac900fee83e921f48e0844c52f30))
+* :sparkles: add config for preset forms ([c40bc0e](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/c40bc0e34f69fad6c132774b905fcf46881b3c33))
+* :package: add preset forms ([5a3463a](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/5a3463a4a182d7ea905108803e4290275b852d54))
+* :package: update packages ([bfcf501](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/bfcf501fa310cdeb533575c078a540ebcbc19e51))
+
+
+### Bug Fixes
+
+* :bug: we don't need a base path here now (nice) ([613c105](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/613c1057d7ec0663821e774727c4a24916c71fe8))
+* :fire: remove commented out stuff ([eb85a74](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/eb85a7498d45d4435e43f7d9bcce54a349bd6f5a))
+* :wrench: inspector is now not experimental ([b7b5bd9](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/b7b5bd90b503015ab373d8d36ca806f558c20a99))
+* :package: update packages ([37bca5a](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/37bca5ad8dbf4850b8ccc9f3ed9f91ab77bb2c06))
+
 ### [0.0.8](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.7...v0.0.8) (2023-04-25)
 
 
