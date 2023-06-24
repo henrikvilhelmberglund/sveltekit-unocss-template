@@ -290,10 +290,6 @@ const config = {
 	],
 	kit: {
 		adapter: adapter(),
-		paths: {
-			// change path below to your github repo if using Github Pages
-			base: dev ? "" : "/sveltekit-unocss-template",
-		},
 	},
 	vitePlugin: {
 		inspector: {
