@@ -4,8 +4,8 @@
 	import Footer from "$lib/Footer.svelte";
 </script>
 
-<main class="[&>*]:p-4">
-	<p class="p-44 text-9xl">Hello</p>
+<main class="[&>*]:m-4">
+	<p class="p-48 text-9xl">Hello</p>
 </main>
 
 <Footer />
