@@ -9,7 +9,7 @@
 		<script>
 			// Tailwind dark mode
 			// On page load or when changing themes, best to add inline in `head` to avoid FOUC
-			if (localStorage.theme === "dark" || !("theme" in localStorage)) {
+			if (localStorage.theme === "dark") {
 				document.documentElement.classList.add("dark");
 			} else {
 				document.documentElement.classList.remove("dark");
