@@ -6,7 +6,7 @@
 	import ThemeSwitcher from "$lib/theme/ThemeSwitcher.svelte";
 </script>
 
-<main class="bg-primary-100 dark:bg-primary-900 [&>*]:m-4">
+<main class="bg-primary-100 dark:bg-primary-950 [&>*]:m-4">
 	<ThemeSwitcher />
 	<DarkModeToggle />
 	<h1 class="text-primary-900 dark:text-primary-100 text-9xl md:p-48">Hello!</h1>

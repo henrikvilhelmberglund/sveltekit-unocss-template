@@ -25,7 +25,7 @@ const safelistTypes = [
 	// "stroke",
 ];
 const safelistColors = ["primary", "secondary", "base", "gray", ...themeColors];
-const safelistShades = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900];
+const safelistShades = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950];
 // let mode = 2;
 // let myArray = [];
 
