@@ -3,7 +3,7 @@ import { persisted } from "svelte-local-storage-store";
 
 export const color = persisted(
 	"color",
-	null,
+	"blue",
 	// avoid stringifying the string adding quotes
 	{
 		serializer: {
