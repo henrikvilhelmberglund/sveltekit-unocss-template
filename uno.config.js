@@ -3,7 +3,7 @@ import { presetForms } from "@julr/unocss-preset-forms";
 import { presetHeroPatterns } from "@julr/unocss-preset-heropatterns";
 import { colors } from "@unocss/preset-mini";
 import { createSafeList } from "./safelist.js";
-import { themes } from "./src/lib/theme/themeColors.js";
+import { themes } from "./src/lib/theme/theme.js";
 import presetTheme from "unocss-preset-theme";
 
 export default defineConfig({
