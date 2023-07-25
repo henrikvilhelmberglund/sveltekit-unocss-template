@@ -1,4 +1,5 @@
 <script>
+	import { color } from "$lib/svelte/stores/stores";
 	import { themeColors } from "./themeColors";
 
 	let selectedTheme;
@@ -8,7 +9,7 @@
 			themeColors.forEach((theme) => {
 				document.documentElement.classList.remove(theme);
 			});
-			localStorage.color = selectedTheme;
+			$color = selectedTheme;
 			document.documentElement.classList.add(selectedTheme);
 		}
 	}
