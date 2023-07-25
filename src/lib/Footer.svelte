@@ -3,31 +3,7 @@
 	import { base } from "$app/paths";
 	import { onMount, onDestroy } from "svelte";
 	import { fade } from "svelte/transition";
-	let show = false;
-
-	function handleScroll() {
-		const scrollPosition = window.scrollY;
-		const windowHeight = window.innerHeight;
-		const offset = 200;
-		const fullHeight = document.body.clientHeight;
-		if (scrollPosition + windowHeight + offset > fullHeight) {
-			show = true;
-		} else {
-			show = false;
-		}
-	}
-
-	onMount(() => {
-		if (browser) {
-			window.addEventListener("scroll", handleScroll);
-		}
-	});
-
-	onDestroy(() => {
-		if (browser) {
-			window.removeEventListener("scroll", handleScroll);
-		}
-	});
+	let show = true;
 </script>
 
 {#if show}
