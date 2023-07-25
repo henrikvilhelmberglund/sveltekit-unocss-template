@@ -1,5 +1,5 @@
 <script>
-	import { color } from "$lib/svelte/stores/stores";
+	import { color } from "$lib/stores";
 	import { themeColors } from "./themeColors";
 
 	let selectedTheme;
