@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.10](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.9...v0.0.10) (2023-07-25)
+
+
+### Features
+
+* :sparkles: display some more elements ([4cbd2dc](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/4cbd2dcfd1d0e14c977a1ab6e411c6b9682c9d9d))
+* :sparkles: set value using store to localstorage ([81cee2a](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/81cee2a5545d7c7af026e4490e8675dce39047b6))
+* :art: move files to subfolder ([f27d34e](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/f27d34e9b98569011428b65e59d3d4fffb890187))
+* :package: update packages uzing taze ([a1c122e](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/a1c122e6e5f14a7ee7bdf2598bc405eaf80970d8))
+* :package: update packages ([e8518a3](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/e8518a321eb3490bcf83779736f17d0d58ffc893))
+* :sparkles: add functionality for creating themes by passing objects ([707f6f3](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/707f6f3b07105cbbaedfd721ed6e8f7779719c58))
+* :sparkles: add theme colors to safelist ([312e3df](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/312e3df5d7971ac3c0b97cf0596bab6d9a77f07a))
+* :sparkles: move stuff to a different component, create theme folder ([e619e73](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/e619e73b90e5ce85fb037158cedaaca2050252e2))
+* :sparkles: add theme switching (should make this a component) ([8969776](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/89697769c53e7b337a62df6c35d181ac604a6054))
+* :sparkles: add DarkModeToggle component ([c7ce301](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/c7ce301bdd1b652eda836e4bb38c38fc3173d7cb))
+* :sparkles: change theme without FOUC, load color (default is blue) ([73f8562](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/73f8562ca4a80cef06a8b396f19783631118c1f1))
+* :sparkles: use UnoCSS Vite plugin instead part 2 ([5ace871](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/5ace871ec8044fc3254508376a05b96e39c033a8))
+* :sparkles: use UnoCSS Vite plugin instead ([a9673fb](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/a9673fbcdecd7502f996350b7ef81484885b6150))
+* :package: add iconify-json carbon ([6125d26](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/6125d2672bb9fa2a1eff0b81eaf2fcbe4f778e15))
+
+
+### Bug Fixes
+
+* :bug: default to light mode ([9e7de15](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/9e7de15bb90fb6bb81f0bb9ee3516bc3653ab86e))
+* :art: move theme vanilla js stuff into one file ([e96d466](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/e96d466f004af083ff4df1aa0c2d999b988cb787))
+* :lipstick: make buttons more even ([5c26578](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/5c26578094255512fd05fd87265119f3d0167084))
+* :lipstick: remove vertical align ([20ece94](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/20ece943196e57b33a16cffcfd774e438e7031fa))
+* :lipstick: fix styling ([799d443](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/799d44388e4704a16e88d39fc65f00c95fa3557c))
+* :art: fix path ([99c49ca](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/99c49ca5694ec1fd46ca282beee582f65f2b69d3))
+* :bug: revert to prettier 2.8 since tailwind class sorting is a bit broken ([d985611](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/d985611f4c76dcb2ee278398fafdde0810e6947a))
+* :art: remove subfolders again, probably fine anyway with named imports ([e2fdcc9](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/e2fdcc90f69453302052eb049c34321614528b1c))
+* :fire: remove commented out code ([bec246b](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/bec246bda4eb7ea537c9dd2dd2af556fa4a70c7e))
+* :fire: remove old helper functions ([3d48f7b](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/3d48f7b37864cd1f0e9d3cafcba9b66540d4fdab))
+* :fire: remove deprecated option ([2ee2fe0](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/2ee2fe019b55042feb992bf16900cf37fbc7dd0b))
+* :lipstick: white text in dark mode, slightly bigger ([0cd4d5c](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/0cd4d5c8021c3df5023817579f03e6ad9d5d4aa5))
+* :bug: add 950 to safelist shades ([04a6436](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/04a6436bd4b5068c9c4993716aaa9f863dbd84ad))
+* :fire: remove scroll stuff from Footer ([1c8325d](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/1c8325dc3eaab4c777023b180a99c8c507e2ff22))
+
 ## [0.0.9](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.8...v0.0.9) (2023-06-24)
 
 
