@@ -1,3 +1,4 @@
+import { themeColors } from "./src/lib/theme/themeColors.js";
 const safelistTypes = [
 	"text",
 	// "decoration",
@@ -23,7 +24,7 @@ const safelistTypes = [
 	// "fill",
 	// "stroke",
 ];
-const safelistColors = ["primary", "secondary", "base", "gray"];
+const safelistColors = ["primary", "secondary", "base", "gray", ...themeColors];
 const safelistShades = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900];
 // let mode = 2;
 // let myArray = [];
