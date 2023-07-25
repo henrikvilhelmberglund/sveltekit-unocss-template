@@ -4,7 +4,11 @@
 	import Footer from "$lib/Footer.svelte";
 	import DarkModeToggle from "$lib/theme/DarkModeToggle.svelte";
 	import ThemeSwitcher from "$lib/theme/ThemeSwitcher.svelte";
+	import { browser } from "$app/environment";
 	import { color } from "$lib/stores";
+
+	// let color = "blue";
+	// $: if (browser) color = localStorage.color;
 </script>
 
 <main
@@ -13,6 +17,7 @@
 		<ThemeSwitcher />
 		<DarkModeToggle />
 	</header>
+
 	<h1 class="text-primary-900 dark:text-primary-100 text-9xl md:p-48 md:pb-0">Hello!</h1>
 	<p class="text-primary-900 dark:text-primary-100">This is the {$color} theme.</p>
 	<button class="btn-primary">A {$color} button</button>
