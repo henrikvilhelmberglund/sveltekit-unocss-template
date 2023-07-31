@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.11](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.10...v0.0.11) (2023-07-31)
+
+
+### Features
+
+* :beers: add import to restart the Vite dev server whenever uno.config.js changes ([157c151](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/157c1517b93681b2cf7051b3315fbad2f07522f4))
+
+
+### Bug Fixes
+
+* :lipstick: make dark:active dark:hover:active instead to change color when clicked from hovering ([136bdb1](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/136bdb183e3a8f36cc67c7dacda42f02beeb1db8))
+* :lipstick: replace hover: with variant that wraps it with [@media](https://github.com/media) (hover) and (pointer: fine) ([068c515](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/068c515fe38b5566023349c274375c2bf8729bf5))
+* :lipstick: make active: hover:active instead so active shows when clicking ([28fd52e](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/28fd52ee7919b6969c8fbcf03cf86724ad74b8b5))
+* :lipstick: make shade darker so hover is visible again ([8711015](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/87110158477adfe36c77dd37b38960f1110d1f97))
+* :bug: remove old style of adding preflights/safelist ([4b65864](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/4b65864e318b7c15feab7f08f66f301ff48efbf8))
+
 ## [0.0.10](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.9...v0.0.10) (2023-07-25)
 
 
