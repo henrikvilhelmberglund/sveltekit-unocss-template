@@ -4,4 +4,4 @@
 
 <slot />
 
-<style uno:preflights uno:safelist></style>
+<style></style>
