@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.0.12](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.11...v0.0.12) (2023-08-18)
+
+
+### Features
+
+* :sparkles: add Melt example component ([5f62a6f](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/5f62a6f5dfcadecc6115a0caf226ba14f803e9cc))
+* :package: add Melt ([1d06d9f](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/commit/1d06d9fdf2683741f46d7460b5b6325e05164569))
+
 ## [0.0.11](https://github.com/henrikvilhelmberglund/sveltekit-unocss-template/compare/v0.0.10...v0.0.11) (2023-07-31)
 
 
