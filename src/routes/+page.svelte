@@ -23,7 +23,7 @@
 	<p class="text-primary-900 dark:text-primary-100">This is the {$color} theme.</p>
 	<button class="btn-primary">A {$color} button</button>
 	<button class="btn-secondary">A {$color} secondary button</button>
-	<p>Now with Melt!</p>
+	<p class="text-primary-900 dark:text-primary-100">Now with Melt!</p>
 	<MeltAccordion />
 </main>
 
