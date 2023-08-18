@@ -6,6 +6,7 @@
 	import ThemeSwitcher from "$lib/theme/ThemeSwitcher.svelte";
 	import { browser } from "$app/environment";
 	import { color } from "$lib/stores";
+	import MeltAccordion from "$lib/melt-examples/MeltAccordion.svelte";
 
 	// let color = "blue";
 	// $: if (browser) color = localStorage.color;
@@ -22,6 +23,8 @@
 	<p class="text-primary-900 dark:text-primary-100">This is the {$color} theme.</p>
 	<button class="btn-primary">A {$color} button</button>
 	<button class="btn-secondary">A {$color} secondary button</button>
+	<p>Now with Melt!</p>
+	<MeltAccordion />
 </main>
 
 <Footer />
