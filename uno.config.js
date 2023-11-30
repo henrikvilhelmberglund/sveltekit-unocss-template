@@ -9,19 +9,6 @@ import presetTheme from "unocss-preset-theme";
 export const reloadMe = true;
 
 export default defineConfig({
-	variants: [
-		{
-			match: (matcher) => {
-				if (!matcher.startsWith("hover:")) return matcher;
-				return {
-					matcher: matcher.slice(6),
-					parent: "@media (hover) and (pointer: fine)",
-					selector: (s) => `${s}:hover`,
-				};
-			},
-			order: -1,
-		},
-	],
 	shortcuts: {
 		"btn-primary":
 			"bg-primary-400 outline-primary-500 outline-2 text-base-100 dark:bg-primary-700 dark:hover:active:(bg-primary-500 translate-y-1) transition-transform hover:active:(bg-primary-100 translate-y-1) dark:hover:bg-primary-600 hover:bg-primary-300 p-2 rounded-lg shadow-md",
